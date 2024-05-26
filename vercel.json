@@ -1,0 +1,41 @@
+{
+    "rewrites": [
+      {
+        "source": "/auth",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/loader",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/anonymous/:id",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/dashboard",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/analytics",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/create-quize",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/analytics/edit-quize/:id",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/analytics/q-analysis/:id",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/",
+        "destination": "/index.html"
+      }
+    ]
+  }
+  
